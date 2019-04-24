@@ -1,0 +1,39 @@
+body {
+    background-color: red;
+}
+
+button {
+    display: block;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: purple;
+    color: yellow;
+    cursor: pointer;
+}
+
+.lick1 {
+    background-image: url("images/mario.png")
+}
+
+.lick2 {
+    background-image: url("images/luigi.jpg")
+}
+
+.lick1,
+.lick2 {
+    height: 500px;
+    width: auto;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 25px;
+}
