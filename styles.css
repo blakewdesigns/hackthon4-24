@@ -1,5 +1,6 @@
 body {
     background-color: red;
+    background-image: url("./images/brick-bg.jpg");
 }
 
 button {
@@ -7,28 +8,27 @@ button {
     justify-content: center;
     height: 100px;
     width: 100px;
-    background-color: yellow;
-    border-radius: 50px;
-    font-size: 20px;
+    background-color: green;
+    border-radius: 20px;
+    font-size: 2em;
     margin: 0 auto;
 }
 
 button:hover {
-    background-color: purple;
-    color: yellow;
+    background-color: yellowgreen;
     cursor: pointer;
 }
 
-.lick1 {
-    background-image: url("images/mario.png")
+.toggle1 {
+    background-image: url("./images/mario.png")
 }
 
-.lick2 {
-    background-image: url("images/luigi.jpg")
+.toggle2 {
+    background-image: url("./images/luigi.jpg")
 }
 
-.lick1,
-.lick2 {
+.toggle1,
+.toggle2 {
     height: 500px;
     width: auto;
     margin: 0 auto;
