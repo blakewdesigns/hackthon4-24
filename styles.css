@@ -12,7 +12,7 @@ nav ul{
     list-style: none;
 }
 nav a {
-    padding: 30px;
+    padding: 20px;
     text-decoration: none;
     font-size: 2.125rem;
     color: red;
@@ -25,12 +25,15 @@ body {
 button {
     display: block;
     justify-content: center;
-    height: 100px;
+    height: 50px;
     width: 100px;
     background-color: green;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 20px;
     margin: 0 auto;
+    color: white;
+    position: relative;
+    top: 10px;
 }
 
 button:hover {
